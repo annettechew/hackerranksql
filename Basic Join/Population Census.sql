@@ -2,4 +2,4 @@ SELECT SUM(CITY.population)
 FROM CITY 
 LEFT JOIN COUNTRY 
 ON CITY.CountryCode = COUNTRY.Code
-WHERE COUNTRY.continent = "Asia";
+WHERE COUNTRY.Continent = "Asia";
